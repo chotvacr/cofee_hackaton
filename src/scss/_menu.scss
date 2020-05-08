@@ -1,0 +1,26 @@
+.section {
+
+    &__head-h1 {
+        background-color: grey;
+
+        margin: 2rem 0;
+    }
+
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 2px solid green;
+
+
+    &__column {
+        width: 30vw;
+    }
+
+    
+
+}
