@@ -10,6 +10,16 @@
     box-sizing: border-box;
 }
 
+.section {
+    border: 2px solid red;
+
+    width: 80vw;
+    margin: 0 auto;
+}
+
+img{
+    width: 30px;
+}
 
 .header {
     // border: 2px solid green;
@@ -21,11 +31,13 @@
     justify-content: space-between;
     align-items: center;
 
-    &__image {
-        height: 13vh;
+    &__logo {
+        height: 90%;
+        width: auto;
 
         margin-left: 10vw;
 
+     
     }
 
     &__nav {
@@ -94,3 +106,5 @@
 
 
 }
+
+
