@@ -8,6 +8,12 @@
         justify-content: space-between;
         margin-top: 3vh;
             }
+            @media screen and (max-width:400px) {
+                .productpage {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 3vh;} }
+
     &__header1 {
         margin-bottom: 2vh;
         text-transform: uppercase;
@@ -32,6 +38,12 @@
         margin-top: 2vh;
         margin-bottom: 2vh;
     }
+    @media screen and (max-width:400px) {
+        &__product {
+            width: 100%;
+            margin-top: 2vh;
+            margin-bottom: 2vh;} }
+
     &__img {
         width: 100%;
     }
