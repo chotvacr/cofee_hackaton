@@ -32,7 +32,7 @@
         height: 90%;
         width: auto;
 
-        margin-left: 10vw;
+        margin-left: 9vw;
 
      
     }
@@ -48,6 +48,8 @@
         margin: 1vw;
 
         color: $color3;
+
+        font-size: 1.5em;
 
         &:hover {
             color: black;
@@ -80,6 +82,16 @@
     &__a {
         text-decoration: none;
         color: $color5;
+        border-bottom: 1px solid $color5;  
+        
+        margin: 0 1vw;
+
+        &:hover {
+            color: $color1;
+            
+            border: none;
+
+        }
 
     }
 
