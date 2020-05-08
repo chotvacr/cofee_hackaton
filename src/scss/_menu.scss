@@ -27,9 +27,18 @@
 
     // border: 2px solid green;
 
+    @media screen and (max-width:400px){
+        flex-direction: column;
+    }
+
 
     &__column {
         width: 35vw;
+
+        @media screen and (max-width:400px){
+            width: 90%;
+        }
+    
     }
 
     

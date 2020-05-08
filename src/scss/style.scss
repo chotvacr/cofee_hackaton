@@ -28,17 +28,36 @@
     justify-content: space-between;
     align-items: center;
 
+    @media screen and (max-width:520px){
+        height: 25vh;
+
+        flex-direction: column;
+    }
+
+
     &__logo {
         height: 90%;
         width: auto;
 
         margin-left: 9vw;
 
+        @media screen and (max-width:520px){
+            margin: auto;
+
+            height: 70%;
+            width: auto;
+        }
+
      
     }
 
     &__nav {
         margin-right: 10vw;
+
+        @media screen and (max-width:520px){
+            margin: auto;
+        }
+
 
     }
 
@@ -50,6 +69,11 @@
         color: $color3;
 
         font-size: 1.5em;
+
+        @media screen and (max-width:520px){
+            // margin: auto;
+            font-size: 1em;
+        }
 
         &:hover {
             color: black;
@@ -73,6 +97,10 @@
         justify-content: flex-end;
 
         background-color: $color2;
+
+        @media screen and (max-width:520px){
+            height: 35vh;
+        }
 
     &__nav {
         margin-bottom: 5vh;
