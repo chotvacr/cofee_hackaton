@@ -1,0 +1,37 @@
+
+.section {
+    &__h1 {
+        text-transform: uppercase;
+        padding-bottom: 4px;
+        
+    }
+    &__h2 {
+        text-transform: uppercase;
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    &__interior {
+        width: 100%;
+        margin-bottom: 10px;}
+    
+    &__map {
+        width: 100%;
+        margin-bottom: -20px; 
+    }    
+
+    &__middle {
+        display: flex;
+        justify-content: space-between; }
+
+    &__item {
+        font-size: 0.6em;
+        margin-bottom: 10px;
+    }
+    &__header {
+        padding-bottom: 4px;
+        text-transform: uppercase;
+    }
+   
+    
+} 

@@ -1,7 +1,7 @@
 @import "variables.scss";
+@import "home.scss";
 
-
-
+@import "offer.scss";
 
 
 
@@ -15,10 +15,6 @@
 
     width: 80vw;
     margin: 0 auto;
-}
-
-img{
-    width: 30px;
 }
 
 .header {

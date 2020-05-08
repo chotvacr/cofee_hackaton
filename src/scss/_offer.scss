@@ -1,0 +1,40 @@
+.section {
+    .productpage {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    &__para1{
+        margin-bottom: 4px;
+    }
+    &__para2 {
+        margin-bottom: 8px;
+    }
+    
+}
+
+.productpage {
+    &__product {
+        border: 1px solid blue;
+        width: 30vw
+    }
+    &__img {
+        width: 100%;
+    }
+    &__header {
+        text-transform: uppercase;
+        height: 2em;
+        background-color: $color6 ;
+        padding-left: 8px;
+    }
+    &__paraita {
+        font-style: italic;
+        padding-left: 8px;
+        background-color: #F8F9FA;
+    }
+    &__para {
+        padding-left: 8px;
+        background-color: #F8F9FA;
+    }
+}
