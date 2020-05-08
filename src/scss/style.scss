@@ -44,7 +44,7 @@
         @media screen and (max-width:520px){
             margin: auto;
 
-            height: 70%;
+            height: 50%;
             width: auto;
         }
 
@@ -132,6 +132,11 @@
     &__p2 {
         margin-bottom: 2vh;
         color: $color4;
+
+        @media screen and (max-width:520px){
+        margin-bottom: 10vh;
+            
+        }
 
     }
 
