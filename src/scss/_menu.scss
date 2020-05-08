@@ -1,9 +1,21 @@
 .section {
 
     &__head-h1 {
-        background-color: grey;
-
         margin: 2rem 0;
+    }
+
+    &__img {
+        width: 80vw;
+        height: 40vh;
+
+
+
+        object-fit: cover;
+        
+
+        margin-bottom: -7vh ;
+        margin-top: 3vh;
+
     }
 
 
@@ -14,13 +26,29 @@
     flex-direction: row;
     justify-content: space-between;
 
-    border: 2px solid green;
+    // border: 2px solid green;
 
 
     &__column {
         width: 30vw;
     }
 
-    
+    &__item {
+
+    }
+
+    &__haed {
+        font-weight: 300;
+        margin: 3vh 0;
+
+    }
+
+    &__product {
+        display: flex;
+        justify-content: space-between;
+
+        margin: 1vh 0;
+    }
+
 
 }
